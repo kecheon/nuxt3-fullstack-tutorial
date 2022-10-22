@@ -33,5 +33,7 @@ export default defineNuxtConfig({
       gitHash: process.env.GITHUB_SHA,
       releaseVersion: process.env.RELEASE_VERSION,
     }
-  }
+  },
+   // auto import components
+  components: true,
 })

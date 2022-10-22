@@ -79,10 +79,10 @@ watch(user, async () => {
               </span>
             </nuxt-link>
             <span class="">
-              <nuxt-link to="/dashboard">
+              <nuxt-link to="/exchanges">
                 <span
                   class="text-base font-medium text-gray-500 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-300 ">
-                  Dashboard
+                  Exchanges
                 </span>
               </nuxt-link>
             </span>
