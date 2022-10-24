@@ -36,4 +36,8 @@ export default defineNuxtConfig({
   },
    // auto import components
   components: true,
+  routeRules: {
+    // Static page generated on-demand, revalidates in background
+    '/exchanges/edit/**': { ssr: false },
+  }
 })

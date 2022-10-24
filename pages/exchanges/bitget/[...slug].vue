@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+//  import Tui from '~/components/content/Tui.client.vue'
  definePageMeta({
   // layout: 'exchange'
 })
@@ -38,9 +39,9 @@
    >
      <ContentRenderer class="mt-4  max-w-none prose lg:prose-xl dark:prose-invert" :value="doc" />
    </div>
+   <!-- <Tui :model-value="doc"/> -->
  </ContentDoc>
   </div>
-  {{ doc }}
     
   </main>
   </div>
