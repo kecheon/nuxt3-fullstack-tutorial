@@ -15,7 +15,7 @@ const query: QueryBuilderParams = { path: '/exchanges', where: { layout: 'index'
       </div>
     </ContentList>
     <ClientOnly>
-      <Tui />
+      <Tui modelValue="content"/>
     </ClientOnly>
   </main>
 </template>

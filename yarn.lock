@@ -945,6 +945,13 @@
     prosemirror-state "^1.3.4"
     prosemirror-view "^1.18.7"
 
+"@toast-ui/vue-editor@^3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@toast-ui/vue-editor/-/vue-editor-3.2.2.tgz#9fb22837ee22ba1d325c1d182e8f8ade8106dd0a"
+  integrity sha512-U4aVxuuSdNQu2WJJiwjTN2XheTyhXmBHV1c3FdhKalILqY3bnmSJ7V/jj2LCtL++4Z70ZGQh18Yeo6KvNbJZzQ==
+  dependencies:
+    "@toast-ui/editor" "^3.2.1"
+
 "@trysound/sax@0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
